@@ -204,8 +204,6 @@ Your output will start out something like this:
 >
 {: .callout}
 
-Explore the information within your SAM file:
-
 Next we convert the SAM file to BAM format for use by downstream tools. We use the `samtools` program with the `view` command and tell this command that the input is in SAM format (`-S`) and to output BAM format (`-b`): 
 
 ~~~
